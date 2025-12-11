@@ -1,7 +1,7 @@
 {
     "name": "EventifyTeamLauncher",
     "productname": "Eventify Team",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "sub_version": "",
     "changelog": "Correcciones de errores y mejoras en la estabilidad del launcher.",
     "description": "Launcher de minecraft para los servidores de Eventify Team",
