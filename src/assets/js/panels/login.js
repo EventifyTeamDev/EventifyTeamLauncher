@@ -141,12 +141,12 @@ class Login {
 		loginOffline.style.display = "block";
 
 		// Microsoft login option in crack mode
-		microsoftcracked.addEventListener("click", async () => {
+		/* microsoftcracked.addEventListener("click", async () => {
 			popupLogin.openPopup({
 				title: "Iniciar sesión",
 				content: "Iniciando sesión con Microsoft...",
 				color: "var(--color)",
-			});
+			}); 
 
 			try {
 				console.log("Starting Microsoft login process...");
@@ -203,7 +203,7 @@ class Login {
 				});
 			}
 		});
-
+		Desactivación preventiva de inicio de sesión con Microsoft */
 		// Offline login
 		connectOffline.addEventListener("click", async () => {
 			connectOffline.disabled = true;
